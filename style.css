@@ -238,9 +238,38 @@ h2{
   width: 100%;
 }
 
-@media screen and (max-width: 640px) {
-  .body {
-    float: none;
-    width: auto;
-  }
-}
+  @media screen and (min-width: 491px) {  
+    header{
+    width: 90%;
+    }
+    
+    nav{
+    width: 90%;
+    }
+      
+    .container2{ 
+    float: center;
+    width: 100%
+    }
+    .footer-distributed{
+    width: 100%;
+    }
+    
+    }
+    
+    @media screen and (max-width: 450px) {
+    header{
+    width: 90%;
+    }
+    
+    nav{
+    width: 90%;
+    }
+    
+    .container2{
+    width: 50%;
+    }
+    .footer-distributed{
+    width: 50%;
+    }
+    } 
